@@ -1,0 +1,253 @@
+Library database loaded.
+Books: 3 | Members: 3 | Transactions: 0
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 1
+
+-------- BOOK MANAGEMENT --------
+1. Add New Book
+2. View All Books
+3. Update Book Details
+4. Delete Book
+5. Back to Main Menu
+Enter your choice: 2
+
+--- All Books ---
+Book ID: 101
+Title: Python Programming
+Author: John Smith
+Category: Programming
+Total Copies: 5
+Available Copies: 5
+--------------------------------
+Book ID: 102
+Title: Data Science Basics
+Author: David Miller
+Category: Technology
+Total Copies: 3
+Available Copies: 3
+--------------------------------
+Book ID: 103
+Title: Database Management
+Author: Robert Brown
+Category: Database
+Total Copies: 4
+Available Copies: 4
+--------------------------------
+
+-------- BOOK MANAGEMENT --------
+1. Add New Book
+2. View All Books
+3. Update Book Details
+4. Delete Book
+5. Back to Main Menu
+Enter your choice: 5
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 3
+
+--- Issue a Book ---
+Enter Book ID: 101
+Enter Member ID: 1
+
+Book Issued Successfully!
+Transaction ID: 1001
+Book: Python Programming
+Member: Aarav Sharma
+Issue Date: 06-11-2026
+Status: Issued
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 6
+
+-------- LIBRARY REPORTS --------
+1. Total Books in Library
+2. Total Book Copies
+3. Available Book Copies
+4. Currently Issued Books
+5. Total Registered Members
+6. Transaction History
+7. Back to Main Menu
+Enter your choice: 4
+
+--- Currently Issued Books ---
+Transaction ID: 1001
+Book: Python Programming (ID 101)
+Member: Aarav Sharma (ID 1)
+Issue Date: 06-11-2026
+Return Date: Not returned yet
+Status: Issued
+--------------------------------
+Total currently issued: 1
+
+-------- LIBRARY REPORTS --------
+1. Total Books in Library
+2. Total Book Copies
+3. Available Book Copies
+4. Currently Issued Books
+5. Total Registered Members
+6. Transaction History
+7. Back to Main Menu
+Enter your choice: 7
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 4
+
+--- Return a Book ---
+Enter Transaction ID: 1001
+
+Book Returned Successfully!
+Book: Python Programming
+Member: Aarav Sharma
+Return Date: 06-11-2026
+Status: Returned
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 5
+
+-------- SEARCH BOOKS --------
+1. Search by Book ID
+2. Search by Book Title
+3. Search by Author
+4. Search by Category
+5. Back to Main Menu
+Enter your choice: 2
+Enter title to search: python
+
+1 matching book(s) found:
+Book ID: 101
+Title: Python Programming
+Author: John Smith
+Category: Programming
+Total Copies: 5
+Available Copies: 5
+--------------------------------
+
+-------- SEARCH BOOKS --------
+1. Search by Book ID
+2. Search by Book Title
+3. Search by Author
+4. Search by Category
+5. Back to Main Menu
+Enter your choice: 5
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 6
+
+-------- LIBRARY REPORTS --------
+1. Total Books in Library
+2. Total Book Copies
+3. Available Book Copies
+4. Currently Issued Books
+5. Total Registered Members
+6. Transaction History
+7. Back to Main Menu
+Enter your choice: 6
+
+--- Transaction History ---
+Transaction ID: 1001
+Book: Python Programming (ID 101)
+Member: Aarav Sharma (ID 1)
+Issue Date: 06-11-2026
+Return Date: 06-11-2026
+Status: Returned
+--------------------------------
+Total transactions: 1
+
+-------- LIBRARY REPORTS --------
+1. Total Books in Library
+2. Total Book Copies
+3. Available Book Copies
+4. Currently Issued Books
+5. Total Registered Members
+6. Transaction History
+7. Back to Main Menu
+Enter your choice: 7
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: abc
+Please enter a valid numeric choice.
+
+========================================
+       LIBRARY MANAGEMENT SYSTEM
+========================================
+1. Book Management
+2. Member Management
+3. Issue a Book
+4. Return a Book
+5. Search Books
+6. Library Reports
+7. Exit
+========================================
+Enter your choice: 7
+Thank you for using Library Management System!
